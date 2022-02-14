@@ -6,6 +6,8 @@
   --hero-secondary-text: #e5e7eb;
   --button-and-cta-color: #3882f6;
   --body-primary-bold-black: #1f2937;
+  --quote-background: #e5e7eb;
+  --quote-text-color: #1f2937;
 }
 
 * {
@@ -97,6 +99,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 75px;
 }
 
 .about-title {
@@ -104,7 +107,7 @@ a {
   font-weight: extra-bold;
   color: var(--body-primary-bold-black);
   text-align: center;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .cat-card {
@@ -130,3 +133,29 @@ a {
 }
 
 /* Section, Quote */
+
+#quote {
+  width: 100vw;
+  height: 45vh;
+  background-color: var(--quote-background);
+}
+
+figure {
+  width: 45vw;
+  height: 45vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: light;
+  color: var(--quote-text-color);
+  text-align: justify;
+}
+
+figcaption {
+  margin-top: 10px;
+  align-self: flex-end;
+  font-weight: bold;
+}
