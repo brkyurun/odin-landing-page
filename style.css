@@ -5,6 +5,7 @@
   --hero-primary-text: #f9faf8;
   --hero-secondary-text: #e5e7eb;
   --button-and-cta-color: #3882f6;
+  --body-primary-bold-black: #1f2937;
 }
 
 * {
@@ -82,8 +83,50 @@ a {
   margin: 20px 0;
 }
 
-img {
+.hero-cta-image > img {
   width: 500px;
   height: auto;
   border-radius: 18px;
 }
+
+/* Section, Random Cat Cards */
+
+#about {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: var(--body-primary-bold-black);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cat-card {
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.cat-card > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  outline: 2px solid var(--button-and-cta-color);
+  border-radius: 5%;
+}
+
+.section-cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+/* Section, Quote */
