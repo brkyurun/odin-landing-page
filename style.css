@@ -17,6 +17,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   width: 100vw;
   height: 75vh;
