@@ -125,8 +125,14 @@ a {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  outline: 2px solid var(--button-and-cta-color);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   border-radius: 5%;
+}
+
+.cat-card > p {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .section-cat-container {
