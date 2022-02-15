@@ -174,16 +174,18 @@ figcaption {
 
 #cta {
   width: 100vw;
-  height: 50vh;
+  height: 46vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .cta-container {
   width: 65vw;
-  height: 25vh;
+  height: 22vh;
   padding: 0 95px;
+  margin-bottom: 20px;
   background-color: var(--button-and-cta-color);
   display: flex;
   justify-content: space-between;
@@ -212,4 +214,16 @@ figcaption {
   font-size: 18px;
   font-weight: bold;
   margin: 20px 0;
+}
+
+/* Footer */
+.footer {
+  height: 12vh;
+  font-size: 18px;
+  width: auto;
+  background-color: var(--dark-background-color);
+  color: var(--hero-secondary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
