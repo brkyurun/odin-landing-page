@@ -146,13 +146,13 @@ a {
 
 #quote {
   width: 100vw;
-  height: 45vh;
+  height: 50vh;
   background-color: var(--quote-background);
 }
 
 figure {
   width: 45vw;
-  height: 45vh;
+  height: 50vh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -168,4 +168,48 @@ figcaption {
   margin-top: 10px;
   align-self: flex-end;
   font-weight: bold;
+}
+
+/* Section, Call-to-Action */
+
+#cta {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  width: 65vw;
+  height: 25vh;
+  padding: 0 95px;
+  background-color: var(--button-and-cta-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.cta-text h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--hero-primary-text);
+  margin-bottom: 5px;
+}
+
+.cta-text p {
+  color: var(--hero-primary-text);
+  font-size: 18px;
+}
+
+.cta-button {
+  background-color: var(--button-and-cta-color);
+  padding: 12px 28px;
+  border: 2px solid var(--hero-primary-text);
+  border-radius: 8px;
+  color: var(--hero-primary-text);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
 }
