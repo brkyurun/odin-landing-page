@@ -87,6 +87,7 @@ a {
   font-size: 18px;
   font-weight: bold;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 .hero-cta-image > img {
